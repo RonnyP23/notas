@@ -4,13 +4,13 @@
     <h4>É novo por aqui? Crie uma conta</h4>
 
     <form @submit.prevent="login" class="">
-      <div style="display:flex; flex-direction:column">
-        <label for="email"><strong>Email</strong></label>
+      <div style="display:flex; flex-direction:column; align-items:center">
+        <label for="email" style="margin-right: 124px"><strong>Email</strong></label>
         <input type="text" id="email" v-model="email" required placeholder="Digite o seu email">
       </div>
 
-      <div class="col-6">
-        <label for="passwaord"><strong>Senha</strong></label>
+      <div class="col-6" style="display:flex; flex-direction:column; align-items:center">
+        <label for="passwaord" style="margin-right: 124px"><strong>Senha</strong></label>
         <input type="text" id="passwaord" v-model="email" required placeholder="Digite a sua senha">
       </div>
 
